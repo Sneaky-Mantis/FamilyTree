@@ -2,7 +2,9 @@ body {
   margin: 0 auto;
   width: 98%;
   background-color: whitesmoke;
-  font-family: tahoma !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 h1 {
@@ -111,6 +113,7 @@ h1 {
 
 .generations {
   width: 100%;
+  margin-top: -15px;
   overflow: hidden;
 }
 
