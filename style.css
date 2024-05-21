@@ -9,8 +9,8 @@ body {
 }
 main {
   margin: 0px;
-  margin-left: 110px;
-  margin-right: 110px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 h1 {
@@ -20,8 +20,29 @@ h1 {
 }
 
 /*====*/
+.top {
+  margin-top: 72px;
+  background-color: #02642b7a;
+  width: 100%;
+}
+
+.title {
+  height: 29px;
+}
+
+.navbar h1 {
+  color: azure;
+  line-height: 55px;
+  font-size: 20px;
+}
+
+.bodyClass {
+  font-family: tahoma !important;
+}
+
 .infoSlide {
   display: grid;
+  width: 100%;
   gap: 1rem;
 }
 
@@ -31,12 +52,15 @@ h1 {
 }
 
 .navbar {
-  margin-left: 20px;
-  margin-right: 20px;
+  position: fixed;
+  width: 100%;
 }
 
 .sidebar {
-  margin-left: 20px;
+  max-height: 85%;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #02642b rgba(245, 245, 245, 0);
   margin-right: 20px;
   position: fixed;
   top: 71px;
@@ -72,7 +96,7 @@ h1 {
 
 .navbar ul {
   list-style-type: none;
-  background-color: hsl(0, 0%, 25%);
+  background-color: hsl(0, 0%, 18%);
   padding: 0px;
   margin: 0px;
   overflow: hidden;
@@ -148,4 +172,6 @@ h1 {
 
 .genHeading {
   background-color: #02642b7a;
+  scroll-margin-top: 72px;
+  width: 100%;
 }
