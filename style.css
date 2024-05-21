@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: whitesmoke;
+  margin: 0px;
+}
+main {
+  margin: 0px;
+  margin-left: 110px;
+  margin-right: 110px;
+}
+
+h1 {
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/*====*/
+.infoSlide {
+  display: grid;
+  gap: 1rem;
+}
+
+.imgDisplay {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.sidebar {
+  margin-left: 20px;
+  margin-right: 20px;
+  position: fixed;
+  top: 71px;
+}
+
+.returnbtnb {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  background: #27ae60;
+  top: 75px;
+  left: 135px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 30px;
+  color: azure;
+  font-size: 18px;
+}
+
+.returnbtnb :hover {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  background: #02642b;
+  top: 75px;
+  left: 135px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 30px;
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  background-color: hsl(0, 0%, 25%);
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  background-color: hsl(0, 0%, 25%);
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.navbar li {
+  float: left;
+}
+
+.sidebar li {
+  /*float: left;*/
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: hsl(0, 0%, 10%);
+}
+
+.sidebar a:hover {
+  background-color: hsl(0, 0%, 10%);
+}
+
+.returnbtn {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #27ae60;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: azure;
+  font-size: 22px;
+}
+
+.returnbtn :hover {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #02642b;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+
+.genHeading {
+  background-color: #02642b7a;
+}
