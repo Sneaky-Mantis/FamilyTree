@@ -1,0 +1,183 @@
+body {
+  margin: 0 auto;
+  background-color: whitesmoke;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.navbarStatic {
+  height: 8%;
+  background-color: rgb(54, 54, 54);
+  position: fixed;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #b17425 rgba(245, 245, 245, 0);
+  display: list-item;
+  padding-top: 10px;
+  margin-top: 38px;
+}
+/**/
+.famStatic {
+  max-height: 80%;
+  background-color: rgb(43, 43, 43);
+  position: fixed;
+}
+
+.famStatic a {
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 5px;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  min-width: 100px;
+  max-width: 100px;
+  color: #02642b;
+}
+
+.famStatic ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.famStatic a:hover {
+  color: #008839;
+  text-decoration: underline;
+}
+/**/
+.navbarStatic a {
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 5px;
+  display: block;
+  text-align: center;
+  min-width: 90px;
+  max-width: 90px;
+}
+
+.navbarStatic ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.navbarStatic:hover {
+  height: 80%;
+}
+.navbarStatic a:hover {
+  min-width: 100px;
+  max-width: 100px;
+  background-color: hsl(0, 0%, 10%);
+  font-weight: bold;
+  font-size: x-large;
+  color: #e09737;
+}
+
+.flexContainer {
+  color: azure;
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgb(43, 43, 43);
+  padding: 5px;
+  /*margin: 0 10px 0 10px;*/
+  overflow: hidden;
+}
+
+.navbarMain {
+  width: 100%;
+  max-height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+.genHeading {
+  background-color: #b17425;
+}
+
+.generation {
+  width: 100%;
+}
+
+.generations {
+  color: azure;
+  display: flex;
+  flex-direction: column;
+  /*justify-content: flex-start;*/
+  background-color: rgb(43, 43, 43);
+  /*padding: 5px;
+  margin: 0 10px 0 10px;*/
+  overflow: hidden;
+}
+
+.generation img {
+  width: 100%;
+
+  overflow: hidden;
+}
+
+.returnbtntop {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  background: #e09737;
+  top: 40px;
+  left: 110px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 30px;
+  color: azure;
+  font-size: 18px;
+}
+
+.returnbtntop :hover {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  background: #b17425;
+  top: 40px;
+  left: 110px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 30px;
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+}
+
+.returnbtnbottom {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #e09737;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: azure;
+  font-size: 22px;
+}
+
+.returnbtnbottom :hover {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #b17425;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+
+/*Monk Color*/
